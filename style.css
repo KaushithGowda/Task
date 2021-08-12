@@ -70,7 +70,7 @@
 }
 
 .drop-down {
-    display: none;
+    display   : none;
     min-height: 250px;
 }
 
@@ -213,7 +213,7 @@
 
 .industries {
     position   : relative;
-    margin-top: 100px;
+    margin-top : 100px;
     padding-top: 80px;
 }
 
@@ -771,17 +771,25 @@ footer {
 }
 
 #footer-icons {
-    flex-direction : row;
-    justify-content: left;
+    padding        : 50px;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-around;
+}
+
+.footer-icons {
+    min-height     : 100px;
+    min-width      : 100px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
 }
 
 .footer-facebook-icon,
 .footer-twitter-icon {
-    width        : 55px;
+    padding      : 10px;
     border-radius: 50%;
     border       : 2px solid #DF5C37;
-    padding      : 15px;
-    margin       : 10px;
 }
 
 .footer-facebook-icon:hover,
